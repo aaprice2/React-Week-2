@@ -1,0 +1,96 @@
+:root {
+  --primary-color: #74b49b;
+  --secondary-color: #5c8d89;
+  --accent-color: rgba(116, 204, 126, 0.2);
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  --font-family: "Inter", sans-serif;
+}
+body {
+  margin: 60px, auto;
+  font-family: var(--font-family);
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 10px;
+  padding: 2px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-link,
+.about-link {
+  background: var(--secondary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin: 10px 20px;
+}
+.contact-link:hover,
+.about-link:hover {
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+p {
+  background: var(--accent-color);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.heading {
+  margin-top: 50px;
+  padding-top: 10px;
+}
+.contact-me {
+  font-size: 48px;
+  text-align: center;
+}
+.app-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 20px;
+}
+.app-link:hover {
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
