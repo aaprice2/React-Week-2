@@ -28,7 +28,7 @@ h1 {
 
 .contact-link,
 .about-link {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   color: white;
   box-shadow: var(--box-shadow);
   text-decoration: none;
@@ -93,4 +93,15 @@ p {
   color: #fff;
   font-weight: 600;
   cursor: pointer;
+}
+
+@media(max-width: 745px) {
+  .screenshot {
+    margin-top: 40px;
+  }
+  .app-link{
+    display: flex;
+    justify-content: center;
+    padding: 20px 15px;
+  }
 }
